@@ -1,6 +1,6 @@
 import React from "react"
 import RecipeList from "./RecipeList"
-import  '../css/main.scss'
+import  '../scss/main.scss'
 
 function App() {
   return <RecipeList recipes={sampleRecipes} />

@@ -18,7 +18,7 @@
   &--danger {
     color: #fff;
     background-color: hsl(0, 100%, 50%);
-    &--danger:hover {
+    &:hover {
       background-color: hsl(0, 100%, 35%);
     }
   }
