@@ -1,0 +1,26 @@
+@import "normalize.css";
+
+@import "base/typography";
+
+@import "layouts/recipeList";
+@import "layouts/recipe";
+@import "layouts/ingredientList";
+
+@import "components/buttons";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+html {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
