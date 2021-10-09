@@ -9,6 +9,7 @@ function App() {
     <ThemeContext.Provider value={{ backgroundColor: theme }}>
       Counter Hooks
       <CounterHooks initialCount={0} />
+      Test
       <button onClick= {() => setTheme(prevTheme => {
         return prevTheme === 'red' ? 'blue' : 'red'
       })}>Toggle Theme</button>
